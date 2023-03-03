@@ -1,0 +1,10 @@
+C:\projects\purecloud\70888-interbank\src\sms-conector\src\Genesys.PS.Entities\bin\Debug\Genesys.PS.Entities.dll
+C:\projects\purecloud\70888-interbank\src\sms-conector\src\Genesys.PS.Entities\bin\Debug\Genesys.PS.Entities.pdb
+C:\projects\purecloud\70888-interbank\src\sms-conector\src\Genesys.PS.Entities\obj\Debug\Genesys.PS.Entities.dll
+C:\projects\purecloud\70888-interbank\src\sms-conector\src\Genesys.PS.Entities\obj\Debug\Genesys.PS.Entities.pdb
+C:\projects\Didi\src\Genesys.PS.Entities\bin\Debug\Genesys.PS.Entities.dll
+C:\projects\Didi\src\Genesys.PS.Entities\bin\Debug\Genesys.PS.Entities.pdb
+C:\projects\Didi\src\Genesys.PS.Entities\obj\Debug\Genesys.PS.Entities.csproj.CoreCompileInputs.cache
+C:\projects\Didi\src\Genesys.PS.Entities\obj\Debug\Genesys.PS.Entities.dll
+C:\projects\Didi\src\Genesys.PS.Entities\obj\Debug\Genesys.PS.Entities.pdb
+C:\projects\Didi\src\Genesys.PS.Entities\obj\Debug\Genesys.PS.Entities.csproj.AssemblyReference.cache

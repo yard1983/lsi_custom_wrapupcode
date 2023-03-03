@@ -1,0 +1,14 @@
+body{
+  background-color: white;
+}
+
+.btn {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+#buttonsDiv{
+  display: flex;
+}
+

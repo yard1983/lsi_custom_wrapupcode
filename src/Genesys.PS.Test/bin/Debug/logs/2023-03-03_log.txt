@@ -1,0 +1,121 @@
+2023-03-03 09:09:50.1485|INFO|Genesys.PS.SelfHost.WindowsService|serviceAddress -> http://localhost:8080|
+2023-03-03 09:09:50.3080|ERROR|Genesys.PS.SelfHost.WindowsService|create host - error|System.ServiceModel.AddressAccessDeniedException: HTTP could not register URL http://+:8080/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details). ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- End of inner exception stack trace ---
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   at System.Web.Http.SelfHost.HttpSelfHostServer.OpenListenerComplete(IAsyncResult result)
+2023-03-03 09:10:57.4550|INFO|Genesys.PS.SelfHost.WindowsService|serviceAddress -> http://localhost:8080|
+2023-03-03 09:10:57.5876|INFO|Genesys.PS.SelfHost.WindowsService|create host - success|
+2023-03-03 09:10:57.5876|INFO|Genesys.PS.SelfHost.WindowsService|Service started: Genesys.PS.SelfHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null-File:             C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.Test\bin\Debug\Genesys.PS.SelfHost.exe
+InternalName:     Genesys.PS.SelfHost.exe
+OriginalFilename: Genesys.PS.SelfHost.exe
+FileVersion:      1.0.0.0
+FileDescription:  Genesys.PS.SelfHost
+Product:          Genesys.PS.SelfHost
+ProductVersion:   1.0.0.0
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         Language Neutral
+|
+2023-03-03 09:44:51.4086|INFO|Genesys.PS.SelfHost.WindowsService|serviceAddress -> http://localhost:8080|
+2023-03-03 09:44:51.5938|INFO|Genesys.PS.SelfHost.WindowsService|create host - success|
+2023-03-03 09:44:51.5938|INFO|Genesys.PS.SelfHost.WindowsService|Service started: Genesys.PS.SelfHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null-File:             C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.Test\bin\Debug\Genesys.PS.SelfHost.exe
+InternalName:     Genesys.PS.SelfHost.exe
+OriginalFilename: Genesys.PS.SelfHost.exe
+FileVersion:      1.0.0.0
+FileDescription:  Genesys.PS.SelfHost
+Product:          Genesys.PS.SelfHost
+ProductVersion:   1.0.0.0
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         Language Neutral
+|
+2023-03-03 09:45:43.7606|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:45:43.8190|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|The information was updated successfully -> CallIDKey:7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:45:58.8295|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:45:58.8295|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:45:58.8295|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|The information was updated successfully -> CallIDKey:7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:45:58.8295|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|The information was updated successfully -> CallIDKey:7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:47:55.0918|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:47:55.1464|ERROR|Genesys.PS.SelfHost.Controllers.WrapupCodeController|Update wrapup-code error|System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '!'.
+Unclosed quotation mark after the character string ';'.
+   at Genesys.PS.DataAccess.SqlServerProvider.RunCommand(String script, Dictionary`2 parameters) in C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.DataAccess\SqlServerProvider.cs:line 48
+   at Genesys.PS.SelfHost.Controllers.WrapupCodeController.Update(UpdateRequest request) in C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.SelfHost\Controllers\WrapupCodeController.cs:line 93
+ClientConnectionId:94cbfef4-7448-4e78-8341-0de4fc8b50b8
+Error Number:102,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server
+HelpLink.ProdVer: 14.00.2037
+HelpLink.EvtSrc: MSSQLServer
+HelpLink.EvtID: 102
+HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+HelpLink.LinkId: 20476
+2023-03-03 09:47:58.2713|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:47:58.3022|ERROR|Genesys.PS.SelfHost.Controllers.WrapupCodeController|Update wrapup-code error|System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '!'.
+Unclosed quotation mark after the character string ';'.
+   at Genesys.PS.DataAccess.SqlServerProvider.RunCommand(String script, Dictionary`2 parameters) in C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.DataAccess\SqlServerProvider.cs:line 48
+   at Genesys.PS.SelfHost.Controllers.WrapupCodeController.Update(UpdateRequest request) in C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.SelfHost\Controllers\WrapupCodeController.cs:line 93
+ClientConnectionId:94cbfef4-7448-4e78-8341-0de4fc8b50b8
+Error Number:102,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server
+HelpLink.ProdVer: 14.00.2037
+HelpLink.EvtSrc: MSSQLServer
+HelpLink.EvtID: 102
+HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+HelpLink.LinkId: 20476
+2023-03-03 09:48:01.3089|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 09:48:01.3359|ERROR|Genesys.PS.SelfHost.Controllers.WrapupCodeController|Update wrapup-code error|System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '!'.
+Unclosed quotation mark after the character string ';'.
+   at Genesys.PS.DataAccess.SqlServerProvider.RunCommand(String script, Dictionary`2 parameters) in C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.DataAccess\SqlServerProvider.cs:line 48
+   at Genesys.PS.SelfHost.Controllers.WrapupCodeController.Update(UpdateRequest request) in C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.SelfHost\Controllers\WrapupCodeController.cs:line 93
+ClientConnectionId:94cbfef4-7448-4e78-8341-0de4fc8b50b8
+Error Number:102,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server
+HelpLink.ProdVer: 14.00.2037
+HelpLink.EvtSrc: MSSQLServer
+HelpLink.EvtID: 102
+HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+HelpLink.LinkId: 20476
+2023-03-03 09:50:45.9282|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 7f334bbd-9df6-4790-bc79-93fcd774a138|
+2023-03-03 10:07:03.9203|INFO|Genesys.PS.SelfHost.WindowsService|serviceAddress -> http://localhost:8080|
+2023-03-03 10:07:04.0405|INFO|Genesys.PS.SelfHost.WindowsService|create host - success|
+2023-03-03 10:07:04.0405|INFO|Genesys.PS.SelfHost.WindowsService|Service started: Genesys.PS.SelfHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null-File:             C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.Test\bin\Debug\Genesys.PS.SelfHost.exe
+InternalName:     Genesys.PS.SelfHost.exe
+OriginalFilename: Genesys.PS.SelfHost.exe
+FileVersion:      1.0.0.0
+FileDescription:  Genesys.PS.SelfHost
+Product:          Genesys.PS.SelfHost
+ProductVersion:   1.0.0.0
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         Language Neutral
+|
+2023-03-03 10:08:45.3221|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: 570d4710-1f0c-4758-8754-f345ec8af81a|
+2023-03-03 10:09:26.2712|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|The information was updated successfully -> CallIDKey:570d4710-1f0c-4758-8754-f345ec8af81a|
+2023-03-03 10:20:11.4402|INFO|Genesys.PS.SelfHost.WindowsService|serviceAddress -> http://localhost:8080|
+2023-03-03 10:20:11.5768|INFO|Genesys.PS.SelfHost.WindowsService|create host - success|
+2023-03-03 10:20:11.5768|INFO|Genesys.PS.SelfHost.WindowsService|Service started: Genesys.PS.SelfHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null-File:             C:\projects\lsi\src\92215-lsi-custom-wrap-up-codes\src\Genesys.PS.Test\bin\Debug\Genesys.PS.SelfHost.exe
+InternalName:     Genesys.PS.SelfHost.exe
+OriginalFilename: Genesys.PS.SelfHost.exe
+FileVersion:      1.0.0.0
+FileDescription:  Genesys.PS.SelfHost
+Product:          Genesys.PS.SelfHost
+ProductVersion:   1.0.0.0
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         Language Neutral
+|
+2023-03-03 10:21:16.3050|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|update CallIDKey: b8ab684e-a233-479f-82ad-801745814dab|
+2023-03-03 10:21:16.3050|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|Data to save -> @CallIDKey: 'b8ab684e-a233-479f-82ad-801745814dab', @ANI: 'tel:+525568687860', @DNIS: 'tel:+13172071981', @IntConnStartTime: '2023-03-03 16:20:50.364', @IntConnEndTime: null, @QueueStartTime: '2023-03-03 16:20:44.624', @QueueEndTime: '2023-03-03 16:20:50.364', @AgentID: 'jesus.gonzalez@genesys.com', @CallCode: null, @ClientId: 'test'!-*', @ClientName: null, @Skill: 'Hack_Team1', @WrapupStartTime: null, @WrapupEndTime: null, @HoldTime: 0, @TimeStamp1: '2023-03-03 16:20:50.364', @Location: 'Work at Home';|
+2023-03-03 10:21:17.7951|INFO|Genesys.PS.SelfHost.Controllers.WrapupCodeController|The information was updated successfully -> CallIDKey:b8ab684e-a233-479f-82ad-801745814dab|
